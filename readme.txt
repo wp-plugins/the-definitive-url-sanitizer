@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== The Definitive URL Sanitizer ===
 Contributors: dmnet
 Tags: url, permalink, post name, sanitize, sanitizer
 Requires at least: 2.7.0
