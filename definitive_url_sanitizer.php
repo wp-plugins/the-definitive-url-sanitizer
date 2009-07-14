@@ -2,14 +2,14 @@
 /**
  * @package The Definitive URL Sanitizer
  * @author David Martinez
- * @version 0.1
+ * @version 0.2
  */
 /*
 Plugin Name: The Definitive URL Sanitizer
 Plugin URI: http://dmnet.bitacoras.com/proyectos/wp_dus
 Description: Really sanitizes post titles for URL, fixing native sanitize_url()
 Author: David Martinez
-Version: 0.1
+Version: 0.2
 Author URI: http://dmnet.bitacoras.com/
 */
 
