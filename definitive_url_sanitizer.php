@@ -2,14 +2,14 @@
 /**
  * @package The Definitive URL Sanitizer
  * @author David Martinez
- * @version 0.4.1
+ * @version 0.4.5
  */
 /*
 Plugin Name: The Definitive URL Sanitizer
 Plugin URI: http://dmnet.bitacoras.com/proyectos/wp_dus
 Description: Really sanitizes post titles for URL, fixing native sanitize_url()
 Author: David Martinez
-Version: 0.4.1
+Version: 0.4.5
 Author URI: http://dmnet.bitacoras.com/
 */
 
@@ -64,6 +64,11 @@ function url_sanitizer($str)
 
 	// replaces spaces with default separator
 	$str = preg_replace("/(^$sep|$sep$)/", '', str_replace(' ', $sep, $str));
+
+	// special fix for "anno"
+	$str = preg_replace('/^ano-/i', 'anno-', $str);
+	$str = preg_replace('/-ano$/i', '-anno', $str);
+	$str = str_replace('-ano-', '-anno-', $str);
 
 	return $str;
 	}

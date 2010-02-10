@@ -3,7 +3,7 @@ Contributors: dmnet
 Tags: url, permalink, post name, sanitize, sanitizer
 Requires at least: 2.7.0
 Tested up to: 2.9.1
-Stable tag: 0.4.1
+Stable tag: 0.4.5
 
 The Definitive URL Sanitizer is a simple plugin that really sanitizes posts URL
 
@@ -13,6 +13,7 @@ The Definitive URL Sanitizer is a simple plugin that really sanitizes posts URL
 removing many characters not removed by native WP sanitizer, like ¿, “, ” or ’
 Very useful for non-english bloggers
 
+Take a look at hhe [changelog](http://svn.wp-plugins.org/the-definitive-url-sanitizer/trunk/changelog.txt) to see update details
 
 == Installation ==
 
