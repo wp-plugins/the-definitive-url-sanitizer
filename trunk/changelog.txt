@@ -1,0 +1,12 @@
+2010-06-22 15:33 version 0.4.6
+
+	* tested up WP 3.0.0
+
+2010-02-10 14:24 version 0.4.5
+
+	* added changelog
+	* exception for "anno"
+
+2010-02-08 12:22 version 0.4.1
+
+	* tested up WP 2.9.1
