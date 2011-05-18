@@ -1,3 +1,8 @@
+2011-05-18 08:12 version 0.4.9
+
+	* fixed 404 errors in existing posts(thanks to Francisco)
+	* tested up WP 3.1.2
+
 2010-06-28 19:14 version 0.4.8
 
 	* tested up WP 3.0.0
