@@ -2,8 +2,8 @@
 Contributors: dmnet
 Tags: url, permalink, post name, sanitize, sanitizer
 Requires at least: 2.7.0
-Tested up to: 3.1.2
-Stable tag: 0.4.9
+Tested up to: 3.4.2
+Stable tag: 0.4.9.1
 
 The Definitive URL Sanitizer is a simple plugin that really sanitizes posts URL
 
